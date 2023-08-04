@@ -145,3 +145,10 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+
+.not-found {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  scale: 0;
+}
