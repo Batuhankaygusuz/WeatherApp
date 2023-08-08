@@ -16,7 +16,7 @@ search.addEventListener("click", () => {
     .then((response) => response.json())
     .then((json) => {
       if (json.cod === "404") {
-        container.style.height = "400px";
+        container.style.height = "500px";
         weatherBox.style.display = "none";
         weatherDetails.style.display = "none";
         error404.style.display = "block";
@@ -37,11 +37,11 @@ search.addEventListener("click", () => {
 
       switch (json.weather[0].main) {
         case "Clear":
-          image.src = "images/clear.png";
+          image.src = "images/clear.png ";
           break;
 
         case "Rain":
-          image.src = "images/rain.png";
+          image.src = "images/rain.png ";
           break;
 
         case "Snow":
